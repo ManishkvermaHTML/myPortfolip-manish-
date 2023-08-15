@@ -1,0 +1,88 @@
+.project-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(247, 240, 231);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: 10px;
+  padding: 5px;
+}
+.header h1,
+.header h2 {
+  text-align: center;
+  padding: 5px;
+}
+.header h1 {
+  margin-top: 15px;
+}
+.header h2 {
+  margin-top: 10px;
+  font-weight: 545;
+}
+.my-projects {
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.my-project {
+  margin: 5px;
+  padding: 5px;
+  width: 350px;
+  height: 300px;
+ 
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: inline-block;
+   
+
+}
+.my-project:hover {
+  cursor: pointer;
+  background-color: rgba(223, 203, 243, 0.986);
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid rebeccapurple;
+}
+.bg1 {
+  width: 100%;
+  height: 50%;
+  background: url(/sources/resume.png) no-repeat center;
+}
+.bg2 {
+  width: 100%;
+  height: 50%;
+  background: url(/sources/tribute.jpg) no-repeat center;
+}
+.bg3 {
+  width: 100%;
+  height: 50%;
+  background: url(/sources/landing.jpg) no-repeat center;
+}
+.bg4 {
+  width: 100%;
+  height: 50%;
+  background: url(/src/survey.jpg) no-repeat center;
+}
+.bg5 {
+  width: 100%;
+  height: 50%;
+  background: url(/src/technical02.jpg) no-repeat center;
+}
+@media  (max-width: 800px) or (min-width: 1024px) {
+  .project-container{
+    height: auto;
+  }
+}

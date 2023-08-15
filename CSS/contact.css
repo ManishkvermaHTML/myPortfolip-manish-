@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #c9a3f9;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333333;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contactMain {
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.headingSection {
+    text-align: center;
+    padding: 15px 5px;
+    margin: 50px auto;
+    letter-spacing: 1px;
+    border-bottom: 2px groove black;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;*/  
+} 
+
+.formSection {
+    padding: 5px;
+    margin: 50px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+fieldset h2 {
+    border-bottom: 2ps solid black;
+}
+
+form {
+    width: 100%;
+    margin: 2px auto;
+}
+
+.form-text span {
+    font-size: 15px;
+    color: #131212;
+    line-height: 0;
+}
+
+fieldset {
+    /* border: 1px solid rebeccapurple; */
+    border-radius: 5px;
+    border: none;
+
+}
+
+.inputs {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formComponent {
+    padding: 10px;
+    width: 95%;
+    margin: 1px auto;
+    border-style: none;
+}
+
+.form-control {
+    border: thin solid rgba(102, 51, 153, 0.986);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 10px
+}
+
+#clientMessage{
+    padding: 0px 5px 10px 5px;
+}
+
+#submit {
+    border-radius: 20px;
+    padding: 5px 0;
+     
+}
+#submit:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    background-color: rgba(102, 51, 153, 0.986);;
+}
+#submit:active{
+    background-color: rgba(119, 62, 175, 0.986);
+}
+
+@media only screen and (min-width: 1024px) { 
+
+    .inputs {
+        padding: 5px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+ #submit{
+    border-radius: 60px;
+    padding: 7px 0;
+    width: 150px;
+    position: relative;
+    left: 40%;
+ }
+    
+}
